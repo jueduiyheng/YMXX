@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/tv_address_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="名字"
+            android:textColor="@color/text_black" />
+
+        <TextView
+            android:id="@+id/tv_address_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="13215917990"
+            android:textColor="@color/text_black" />
+
+        <TextView
+            android:id="@+id/tv_address_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_address_name"
+            android:layout_below="@+id/tv_address_name"
+            android:layout_marginTop="10dp"
+            android:text="福建省厦门市软件园二期望海路65好之二706"
+            android:textColor="@color/text_grey" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/rb_address_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/rd_address"
+            android:focusable="false"
+            android:text="  默认地址"
+            android:textColor="@color/text_grey" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_address_editor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/edit"
+            android:gravity="center"
+            android:text="  编辑"
+            android:textColor="@color/text_grey" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_address_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/xo"
+            android:gravity="center"
+            android:text="  删除 "
+            android:textColor="@color/text_grey" />
+    </LinearLayout>
+</LinearLayout>

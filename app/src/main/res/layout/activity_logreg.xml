@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".LogRegActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:background="@drawable/denglubeijing2"
+        android:orientation="horizontal">
+
+        <com.astuetz.PagerSlidingTabStrip xmlns:psts="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/logintabs"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_gravity="right|bottom"
+            android:background="#00000000"
+            android:fillViewport="false"
+            psts:pstsTabBackground="@null"
+            psts:pstsDividerColor="#00000000"
+            psts:pstsIndicatorColor="#00000000"
+            psts:pstsIndicatorHeight="48dip"
+            psts:pstsShouldExpand="true"
+            psts:pstsUnderlineHeight="0dp"></com.astuetz.PagerSlidingTabStrip>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView6"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/img_houtui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:padding="16dp"
+            android:src="@drawable/houtui" />
+    </FrameLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/loginPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-10dp"/>
+</LinearLayout>

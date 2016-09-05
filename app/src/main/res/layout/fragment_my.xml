@@ -1,0 +1,246 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    tools:context="com.lxd.ymxx.fragment.MyFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gerenbeijing1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.lxd.ymxx.view.Portraits
+                android:id="@+id/img_portrait"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/touxiang" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="登录/注册"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="57dp"
+                android:layout_marginTop="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/btn_register_sendsms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/rect_blue"
+                    android:text="修改"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#353535"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="预约订单"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="商城订单"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_record"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/ranfaka"
+                    android:gravity="center"
+                    android:text="染发卡记录" />
+
+                <TextView
+                    android:id="@+id/tv_integral"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/jifenchaxun"
+                    android:gravity="center"
+                    android:text="积分查询" />
+
+                <TextView
+                    android:id="@+id/tv_preferential"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/youhuiquan"
+                    android:gravity="center"
+                    android:text="优惠券" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/fushuka"
+                    android:gravity="center"
+                    android:text="附属卡" />
+
+                <TextView
+                    android:id="@+id/tv_payment_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/mima1"
+                    android:gravity="center"
+                    android:text="交易密码" />
+
+                <TextView
+                    android:id="@+id/tv_xiugai_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/mima1"
+                    android:gravity="center"
+                    android:text="登录密码" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/tv_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/guanyuwomen"
+                    android:gravity="center"
+                    android:text="关于" />
+
+                <TextView
+                    android:id="@+id/tv_loginout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:layout_weight="1"
+                    android:text="退出"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

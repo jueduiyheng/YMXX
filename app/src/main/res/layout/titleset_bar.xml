@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar_img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:src="@drawable/houtui" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/titlebar_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/text_black"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/titlebar_tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/text_black"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/titlebar_img_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/titlebar_iv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/titlebar_img_back"
+        android:textColor="@color/text_black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/text_grey"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47.5dp" />
+
+</RelativeLayout>

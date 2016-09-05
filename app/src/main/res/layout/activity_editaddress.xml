@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.lxd.ymxx.app.EditaddressActivity">
+
+    <include layout="@layout/titleset_bar"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <EditText
+            android:id="@+id/edit_address_name"
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:hint="收货人姓名"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/text_grey"
+            android:textCursorDrawable="@drawable/edit_cursor"
+            android:textSize="14sp"></EditText>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="收货人　"
+            android:textColor="@color/text_black" />
+    </RelativeLayout>
+
+    <include layout="@layout/divider_1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <EditText
+            android:id="@+id/edit_address_phone"
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/textView2"
+            android:hint="手机号码"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:textColorHint="@color/text_grey"
+            android:textCursorDrawable="@drawable/edit_cursor"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="联系电话"
+            android:textColor="@color/text_black" />
+    </RelativeLayout>
+
+    <include layout="@layout/divider_1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <EditText
+            android:id="@+id/edit_address_street"
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/textView4"
+            android:hint="请输入详细地址"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/text_grey"
+            android:textCursorDrawable="@drawable/edit_cursor"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="详情地址"
+            android:textColor="@color/text_black" />
+    </RelativeLayout>
+
+    <include layout="@layout/divider_1" />
+</LinearLayout>

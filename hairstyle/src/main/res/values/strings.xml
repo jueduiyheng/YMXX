@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">hairstyle</string>
+
+    <string name="fmale_model_text">女款</string>
+    <string name="male_model_text">男款</string>
+    <string name="get_photo_choose">从手机相册选取</string>
+
+    <string name="paizhao">拍照</string>
+    <string name="back">返回</string>
+    <string name="cancel">取消</string>
+    <string name="top_model">模特</string>
+
+
+</resources>

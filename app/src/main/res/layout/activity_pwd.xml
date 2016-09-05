@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lxd.ymxx.app.PwdActivity">
+
+    <include layout="@layout/titleset_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="原密码　"
+            android:textColor="@color/text_black" />
+
+        <EditText
+            android:id="@+id/edit_oldpwd"
+            style="@style/styleName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="请输旧密码"
+            android:inputType="textPassword"
+            android:textColorHint="@color/text_grey" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="新密码　"
+            android:textColor="@color/text_black" />
+
+        <EditText
+            android:id="@+id/edit_newpwd"
+            style="@style/styleName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="请输入新密码"
+            android:inputType="textPassword"
+            android:textColorHint="@color/text_grey" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:text="密码由6-20位英文字、母数字或字符"
+        android:textColor="@color/text_grey" />
+
+    <Button
+        android:id="@+id/btn_alter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/anniuzhuce"
+        android:gravity="center"
+        android:text="确认"
+        android:textColor="@color/white" />
+
+</LinearLayout>

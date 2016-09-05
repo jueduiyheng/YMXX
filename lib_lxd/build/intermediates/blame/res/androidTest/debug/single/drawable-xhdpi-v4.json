@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\YMXX\\lib_lxd\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\YMXX\\lib_lxd\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\YMXX\\lib_lxd\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\touxiang.png",
+        "source": "D:\\YMXX\\lib_lxd\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\touxiang.png"
+    },
+    {
+        "merged": "D:\\YMXX\\lib_lxd\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\juhua.png",
+        "source": "D:\\YMXX\\lib_lxd\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\juhua.png"
+    }
+]

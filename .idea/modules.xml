@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/StudyDemo/StudyDemo.iml" filepath="$PROJECT_DIR$/StudyDemo/StudyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YMXX.iml" filepath="$PROJECT_DIR$/YMXX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hairstyle/hairstyle.iml" filepath="$PROJECT_DIR$/hairstyle/hairstyle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_Dialog/lib_Dialog.iml" filepath="$PROJECT_DIR$/lib_Dialog/lib_Dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_lxd/lib_lxd.iml" filepath="$PROJECT_DIR$/lib_lxd/lib_lxd.iml" />
+    </modules>
+  </component>
+</project>

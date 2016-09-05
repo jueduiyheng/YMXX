@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--底部菜-->
+    <color name="tab_press">#00d6ef</color>
+    <color name="tab_up">#a1a1a1</color>
+    <color name="red">#ff5000</color>
+    <color name="divider">#ebebeb</color>
+    <color name="white">#ffffff</color>
+    <color name="text_black">#6a6a6a</color>
+    <color name="text_grey">#a1a1a1</color>
+    <color name="textcolor_white">#FFFFFFFF</color>
+    <color name="juhua">#4c4c4c</color>
+    <color name="heise">#191e22</color>
+    <color name="textcolor_heise">#333333</color>
+    <color name="textcolor_huise">#999999</color>
+    <color name="textcolor6">#666666</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="login_bg">#ffa7a7</color>
+    <color name="blue">#8FB5FF</color>
+</resources>

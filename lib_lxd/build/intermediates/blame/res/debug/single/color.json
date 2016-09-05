@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\YMXX\\lib_lxd\\build\\intermediates\\res\\merged\\debug\\color\\color.xml",
+        "source": "D:\\YMXX\\lib_lxd\\src\\main\\res\\color\\color.xml"
+    },
+    {
+        "merged": "D:\\YMXX\\lib_lxd\\build\\intermediates\\res\\merged\\debug\\color\\linkcolor.xml",
+        "source": "D:\\YMXX\\lib_lxd\\src\\main\\res\\color\\linkcolor.xml"
+    }
+]

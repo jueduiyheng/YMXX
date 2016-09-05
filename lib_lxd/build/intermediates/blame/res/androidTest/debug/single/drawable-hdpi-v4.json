@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\YMXX\\lib_lxd\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\destination_header_default.png",
+        "source": "D:\\YMXX\\lib_lxd\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\destination_header_default.png"
+    },
+    {
+        "merged": "D:\\YMXX\\lib_lxd\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\a11111111.png",
+        "source": "D:\\YMXX\\lib_lxd\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\a11111111.png"
+    },
+    {
+        "merged": "D:\\YMXX\\lib_lxd\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\remarkloading_fail.png",
+        "source": "D:\\YMXX\\lib_lxd\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\remarkloading_fail.png"
+    },
+    {
+        "merged": "D:\\YMXX\\lib_lxd\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_error.png",
+        "source": "D:\\YMXX\\lib_lxd\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_error.png"
+    },
+    {
+        "merged": "D:\\YMXX\\lib_lxd\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\re.png",
+        "source": "D:\\YMXX\\lib_lxd\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\re.png"
+    },
+    {
+        "merged": "D:\\YMXX\\lib_lxd\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_stub.png",
+        "source": "D:\\YMXX\\lib_lxd\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_stub.png"
+    }
+]

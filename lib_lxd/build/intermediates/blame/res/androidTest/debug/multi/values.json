@@ -1,0 +1,68 @@
+[
+    {
+        "outputFile": "D:\\YMXX\\lib_lxd\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 1254,
+                    "endColumn": 47,
+                    "endOffset": 1297
+                },
+                "from": {
+                    "file": "D:\\YMXX\\lib_lxd\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 1254,
+                        "endColumn": 47,
+                        "endOffset": 1297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1302,
+                    "endLine": 16,
+                    "endColumn": 12,
+                    "endOffset": 1590
+                },
+                "from": {
+                    "file": "D:\\YMXX\\lib_lxd\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 1302,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 1590
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1595,
+                    "endLine": 19,
+                    "endColumn": 12,
+                    "endOffset": 1750
+                },
+                "from": {
+                    "file": "D:\\YMXX\\lib_lxd\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1595,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 1750
+                    }
+                }
+            }
+        ]
+    }
+]

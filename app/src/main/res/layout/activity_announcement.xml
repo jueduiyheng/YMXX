@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textcolor_white"
+    android:orientation="vertical"
+    tools:context=".AnnouncementdetailsActivity" >
+
+    <include layout="@layout/titleset_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="标题"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:text="作者:" />
+
+        <TextView
+            android:id="@+id/tv_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:text="小明" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="2016-8-3 9:11" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="0.05"
+        android:text="　默默的等待着以为不会再回任何消息了，安静释然的睡去。
+　　
+　　早晨起来拿出手机一看，你居然回了消息。
+　　
+　　我本已打算就此放下往事，不去想，不去渴望。可为什么偏偏这个时候你又给我希望，让一颗放下的心再一次提起沉重的包袱。
+　　
+　　你是不是对每个人都这么好，好到让所有的人对你提不起恨。甘愿沦为你的俘虏，沉溺于你的温柔。
+　　
+　　好想问问你，但是却又无从问起。在你眼中，我似乎总是那样的傻，爱说一些很傻的话。但是，这些其实对我都是那样的重要。我喜欢得到你的承认，喜欢在心里想象你笑的模样，喜欢你的很多很多。
+　　
+　　真觉得自己很懦弱，为何总是开不了口。本就应该结束，可从未开始又哪来的结束。
+　　
+　　
+" />
+
+</LinearLayout>

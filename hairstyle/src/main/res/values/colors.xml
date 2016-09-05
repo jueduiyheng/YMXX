@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="radio_model">#ffff4b9b</color>
+    <color name="bind_cancel_press">#ffd65284</color>
+    <color name="expert_top_tv_normal">#ffef71a1</color>
+    <color name="bind_cancel_press1">#ff7a7979</color>
+    <color name="bind_cancel">#ff999999</color>
+
+</resources>
